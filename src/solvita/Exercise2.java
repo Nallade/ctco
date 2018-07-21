@@ -11,11 +11,17 @@ public class Exercise2 {
 
         if (baseLength % 2 == 0) {
             for (int x = 2; x <= baseLength; x = x + 2) {
-                System.out.println(x);
+                for (int n = 1; n <= x; n++) {
+                    System.out.print("*");
+                }
+                System.out.println();
             }
         } else {
             for (int x = 1; x <= baseLength; x = x + 2) {
-                System.out.println(x);
+                for (int n = 1; n <= x; n++) {
+                    System.out.print("*");
+                }
+                System.out.println();
             }
         }
     }
